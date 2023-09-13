@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -n3 "iacta"
+cat -n 3 iacta
