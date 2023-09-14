@@ -1,2 +1,2 @@
 #!/bin/bash/env bash
-for "Best School" echo -n10 
+if $"Best School" then for head -n $1
