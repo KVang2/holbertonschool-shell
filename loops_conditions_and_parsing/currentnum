@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+for letter in "Hello World"
+do 
+echo $letter
+done
