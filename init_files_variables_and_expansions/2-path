@@ -1,2 +1,2 @@
 #!/bin/bash
-echo PATH="/action:tail -d"
+echo PATH="/action:tail -d PATH"
