@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 #for loop
 for Bash script in {1..10} 
 do 
