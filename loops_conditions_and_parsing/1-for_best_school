@@ -1,3 +1,2 @@
 #!/bin/bash/env bash
-echo "$ Best School"
-read $
+for "Best School" echo -n10 
