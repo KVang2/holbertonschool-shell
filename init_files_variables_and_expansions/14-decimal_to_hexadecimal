@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -n $((DECIMAL#16))
+printf "%d %x\n" $((16#DECIMAL))
