@@ -1,2 +1,4 @@
 #!/bin/bash/env bash
-for $head -n$1I 
+for Best School
+do head -n 10
+done;
