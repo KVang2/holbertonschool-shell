@@ -1,2 +1,2 @@
-#!/bin/bash/env bash
-if $"Best School" then for head -n $1
+#!/bin/bash
+#!/bin/bash/env bash if $"Best School" then for head -n $1
