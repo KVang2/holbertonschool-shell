@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "128\n" | $TRUEKNOWLEDGE
+export "128\n" ${TRUEKNOWLEDGE}
