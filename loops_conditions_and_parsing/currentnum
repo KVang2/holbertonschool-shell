@@ -1,5 +1,9 @@
 #!/usr/bin/bash
-for letter in "Hello World"
+for Numbers in {1..100}
 do 
-echo $letter
+if [ $Numbers -eq even ]; then 
+fi print even
+
+if [ $Numbers -eq odd ]; then 
+fi 	print odd
 done
