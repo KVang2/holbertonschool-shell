@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 #If 9, say Hi!
 Best=1 
-while [ $Best -le 9 ]
+while [ $Best -le 10 ]
 do
 echo "Best School"
 Best=$((Best+1))
 
-if [ $Best -eq 9 ]
+if [ $Best -eq 10 ]
 then
 	echo "Hi"
 fi
