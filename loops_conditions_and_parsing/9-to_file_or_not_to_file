@@ -1,17 +1,18 @@
 #!/usr/bin/env bash
 #To file, or not to file
-if [ -a "school" ]
+if [ -e "school" ]
 	then 
 			echo "school file exists"
 if 
-		[ -s "school" ]
+		[ ! -e "school" ]
 	then 
 			echo "school file does not exist"
-if 
-		[ -e "school" ]
+	else
+		[ -s "school" ]
 	then 
 			echo "school file is empty"
-	else 
+	if 
+		[ ! -s "school" ]
 			echo " school file is not empty"
 if
 		[ -f "school" ]
