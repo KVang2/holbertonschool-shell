@@ -1,20 +1,21 @@
 #!/usr/bin/env bash
 #To file, or not to file
+file="school"
 if 
-		[ -e "school" ];
+		[ -e "$file" ];
 	then 
 			echo "school file exists"
 if 
-		[ -s "school" ];
+		[ ! -s "$file" ];
 	then
-			echo "school file is not empty"
-	else 
 			echo "school file is empty"
+	else 
+			echo "school file is not empty"
 fi
 
 		
 if 
-		[ -f "school" ];
+		[ -f "$file" ];
 	then
 			echo "school file is a regular file"
 fi
