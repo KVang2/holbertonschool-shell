@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #for ls
-dir=$(ls)
-for file in $dir;
+file=$(ls)
+for dir in $file;
 	do	
-		echo "$file" | cut -d '-' -f2
+		echo "$dir" | cut -d '-' -f2
 	
 done
