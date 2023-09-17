@@ -2,10 +2,9 @@
 #for ls
 dir=0
 for dir in *;
-	do	echo $dir
-
-		if [ -d "$dir" ];
+	do	
+	if    	[ -f "$dir" ];
 		then 
-		pwd $dir
+		echo "$dir" | cut -f'-' -f2-
 		fi	
 done
