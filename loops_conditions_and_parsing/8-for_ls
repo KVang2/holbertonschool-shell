@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
 #for ls
-dir=0
-for dir in *;
+dir=$(ls)
+for file in $dir;
 	do	
-	if    	[ -f "$dir" ];
-		then 
-		echo "$dir" | cut -f'-' -f2-
-		fi	
+		echo "$file" | cut -d '-' -f2
+	
 done
