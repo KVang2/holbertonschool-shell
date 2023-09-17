@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#for ls
+dir=0
+for dir in *;
+	do	echo $dir
+
+		if [ -d "$dir" ];
+		then 
+		pwd $dir
+		fi	
+done
