@@ -1,18 +1,10 @@
 #!/usr/bin/env bash
 #Tell the story of passwd
-USERNAME="dir"
-PASSWORD="dir"
-COMMAND="dir"
-HOME_DIRECTORY="dir"
-GROUP_ID="dir"
-USER ID INFO="dir"
-USER ID="dir"
-while IFS= read -r
-do 
-	cmd < /etc/passwd | cut -d ';' -f1,2,3,4,5,6,7
-
-	echo -n "The user $USERNAME is part of $GROUP_ID gang."
-	echo -n "lives in $HOME_DIRECTORY and rides $COMMAND."
-	echo -n "$USER ID's place is protected by the passcode $PASSWORD."
-	echo -n "more info about the user here: $USER ID INFO."
-done	
+files="/etc/passwd"
+while IFS=: read -r f1 f2 f3 f4 f5 f6 f7
+do
+	echo "The user $f1 is part of $f4 gang."
+	echo "lives in $f6 and rides $f7."
+	echo "$f3 place is protected by the passcode $f2."
+	echo "more info about the user here: $f5."
+done < "$files"	
