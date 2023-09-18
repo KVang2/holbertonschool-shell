@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#Read and cut
+dir="directory"
+while IFS= read -r
+do
+	cat /etc/passwd | cut -d ';' -f1,3,6
+	echo "$dir" ;
+done < /etc/passwd
+

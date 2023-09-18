@@ -1,9 +1,17 @@
 #!/usr/bin/bash
-for Numbers in {1..100}
+x=1
+for x in {1..100}
 do 
-if [ $Numbers -eq even ]; then 
-fi print even
+if 
+	(( x == 1 ));
+then 
+	echo "$x even"
 
-if [ $Numbers -eq odd ]; then 
-fi 	print odd
+elif 
+	(( x == 2)); 
+then
+       echo "$x odd"
+      	else 
+		echo $x
+fi 
 done
